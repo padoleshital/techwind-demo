@@ -5,14 +5,7 @@ import { LeftlayoutComponent } from '../layout/leftlayout/leftlayout.component';
 import { NetMarketingComponent } from '../pages/net-marketing/net-marketing.component';
 
 const routes: Routes = [
-  // {
-  //   path:'',
-  //   component:LeftlayoutComponent,
-  //   children:[      
-  //       { path: 'net-marketing', component: NetMarketingComponent },
-      
-  //   ]
-  // }
+ 
 ];
 
 @NgModule({
