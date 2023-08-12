@@ -44,10 +44,10 @@
                     <p class="text-slate-400 max-w-xl">You can combine all the Techwind templates into a single one, you can take a component from the Application theme and use it in the Website.</p>
 
                     <ul class="list-none text-slate-400 mt-4">
-                        <li class="mb-1 flex"><i-feather name="check-circle text-indigo-600 text-xl me-2"></i-feather> Digital Marketing Solutions for Tomorrow</li>
-                        <li class="mb-1 flex"><i-feather name="check-circle text-indigo-600 text-xl me-2"></i-feather> Our Talented & Experienced Marketing Agency</li>
-                        <li class="mb-1 flex"><i-feather name="check-circle text-indigo-600 text-xl me-2"></i-feather> Create your own skin to match your brand</li>
-                    </ul>
+                        <li *ngFor="let feature of features" class="mb-1 flex">
+                            <i-feather name="check-circle" class="text-indigo-600 text-xl me-2"></i-feather> {{ feature }}
+                          </li>
+                        </ul>
 
                     <div class="mt-4">
                         <a href="page-aboutus.html" class="btn btn-link text-indigo-600 hover:text-indigo-600 after:bg-indigo-600 duration-500 ease-in-out">Find Out More <i class="uil uil-angle-right-b align-middle"></i></a>

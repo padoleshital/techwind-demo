@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./home.component.scss']
 })
 export class HomeComponent {
+  features = [
+    'Digital Marketing Solutions for Tomorrow',
+    'Our Talented & Experienced Marketing Agency',
+    'Create your own skin to match your brand'
+  ];
 
 }
